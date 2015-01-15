@@ -53,6 +53,7 @@ ROOT_URLCONF = 'tutorial_site.urls'
 
 WSGI_APPLICATION = 'tutorial_site.wsgi.application'
 
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
